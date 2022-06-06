@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 1 </title>
+    <style>
+        .body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .box {
+            background-color: silver;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .width100 {
+            width: 100%;
+            background: green;
+        }
+
+        .non {
+            width: 0%;
+        }
+
+        @media(min-width:1024px) {
+            .width70 {
+                width: 69%;
+                background-color: pink;
+            }
+
+            .width100d {
+                width: 30%;
+                background: aqua;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box width100"></div>
+        <div class="box non width70"></div>
+        <div class="box non width100d"></div>
+        <div class="box width100 width100d"></div>
+        <div class="box non width100d"></div>
+        <div class="box width100 width100d"></div>
+</body>
+
+</html>

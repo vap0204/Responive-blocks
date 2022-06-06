@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 4 </title>
+   <style>
+@media(min-width:1024px) {
+    .box{
+        background-color: silver;
+        width: 30%;
+        min-height: 200px;
+        display: inline-block;
+    }
+    .container{
+        text-align: center;
+        font-size: 30px;
+    }
+    
+  }
+  @media (min-width:768px )and (max-width:1024px) {
+    .boxm{
+        background-color: rgb(122, 8, 8);
+        width: 100%;
+        min-height: 200px;
+    }
+    .box50{
+        display: flex;
+        display: inline-block;
+        flex-direction: row;
+        background-color: rgb(8, 122, 29);
+        width: 48%;
+        min-height: 200px;
+    }
+  }
+  @media (max-width:767px){
+      .box100{
+          width: 100%;
+          background-color: aqua;
+      }
+  }
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="box width100 boxm box100">
+            <h2>Title</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam obcaecati suscipit aut ipsa consequatur, alias quo quidem, voluptas dolores nulla facilis adipisci earum maiores ut nam pariatur consequuntur at eveniet?</p>
+        </div>
+        <div  class="box box50 box100">
+            <h2>Title</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam obcaecati suscipit aut ipsa consequatur, alias quo quidem, voluptas dolores nulla facilis adipisci earum maiores ut nam pariatur consequuntur at eveniet?</p>
+        </div>
+        <div  class="box box50 box100">
+            <h2>Title</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam obcaecati suscipit aut ipsa consequatur, alias quo quidem, voluptas dolores nulla facilis adipisci earum maiores ut nam pariatur consequuntur at eveniet?</p>
+        </div>
+
+    </div>
+</body>
+</html>
